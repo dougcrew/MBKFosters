@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+:root {
+  --body-font-color: #272829;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  color: #272829;
+}
+/* .container {
+  display: flex;
+} */
+
+.title {
+  font-family: 'Amatic SC', cursive;
+}
+
+#subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.title2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+}
+
+.title3 {
+  font-weight: 100;
+}
+.card-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+}
+p {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.btn_text {
+  font-weight: 300;
+}
+
+.animate-text-right {
+  animation: animateText 1s ease;
+}
+
+.animate-text-right-2s {
+  animation: animateText 2s ease;
+}
+
+@keyframes animateText {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  text-decoration: #222224;
+}
+
+#break {
+  height: 3rem;
+}
+
+/* Our Team */
+
+.card-img-top {
+  width: 100%;
+  /* height: 15vw; */
+  object-fit: cover;
+}
+
+/* MODAL */
